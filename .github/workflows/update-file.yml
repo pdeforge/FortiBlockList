@@ -16,10 +16,10 @@ jobs:
         run: |
           curl -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt -o fichier.txt
 
-          - name: Modifier le fichier
-          run: |
-            sed -i 's/||//g' fichier.txt
-            sed -i 's/\^//g' fichier.txt
+      - name: Modifier le fichier
+        run: |
+          sed -i 's/||//g' fichier.txt
+          sed -i 's/\^//g' fichier.txt
   
       - name: Commit et push des changements
         run: |
