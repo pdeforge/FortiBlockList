@@ -1,17 +1,17 @@
 ## new Project GitHub Action
-## Download files
-## modify files
-## push files in my GitHub
+1/ Download files
+2/ modify files
+3/ push files in my GitHub
 
-## ADGuard DNS Filter
+_ADGuard DNS Filter_
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt
 
-## AdAway Default BlocList
+_AdAway Default BlocList_
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_2.txt
 
-## OISD Block list small
+_OISD Block list small_
 https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
 
-## NSFW Oisd
+_NSFW Oisd_
 https://nsfw.oisd.nl/
 
