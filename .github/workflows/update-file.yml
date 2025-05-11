@@ -14,12 +14,13 @@ jobs:
 
       - name: Télécharger le fichier distant
         run: |
-          curl -L https://raw.githubusercontent.com/utilisateur/repo/branche/chemin/fichier.txt -o fichier.txt
+          curl -L https://adguardteam.github.io/HostlistsRegistry/assets/filter_1.txt -o fichier.txt
 
-      - name: Modifier le fichier
-        run: |
-          sed -i 's/caractere_a_supprimer//g' fichier.txt
-
+          - name: Modifier le fichier
+          run: |
+            sed -i 's/||//g' fichier.txt
+            sed -i 's/\^//g' fichier.txt
+  
       - name: Commit et push des changements
         run: |
           git config user.name "github-actions[bot]"
