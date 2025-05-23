@@ -14,7 +14,3 @@ https://adguardteam.github.io/HostlistsRegistry/assets/filter_5.txt
 
 ## NSFW Oisd
 https://nsfw.oisd.nl/
-
-et hop !
-
-
