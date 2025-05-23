@@ -23,12 +23,15 @@ jobs:
         run: |
           sed -i 's/||//g' AdGuardDNS.txt
           sed -i 's/\^//g' AdGuardDNS.txt
-          sed -i 's/\|//g' AdGuardDNS.txt  
+          sed -i 's/\|//g' AdGuardDNS.txt
+          sed -i '/^@@/d' AdGuardDNS.txt
           sed -i 's/||//g' AdGuardDNS2.txt
           sed -i 's/\^//g' AdGuardDNS2.txt
+          sed -i '/^@@/d' AdGuardDNS2.txt
           sed -i 's/127\.0\.0\.1//g' AdGuardDNS2.txt
           sed -i 's/||//g' AdGuardDNS5.txt
           sed -i 's/\^//g' AdGuardDNS5.txt
+          sed -i '/^@@/d' AdGuardDNS5.txt
           sed -i 's/||//g' OISD.txt
           sed -i 's/\^//g' OISD.txt
 
